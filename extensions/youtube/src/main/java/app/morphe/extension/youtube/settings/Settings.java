@@ -231,6 +231,13 @@ public class Settings extends SharedYouTubeSettings {
     public static final BooleanSetting AISLIST_SUBMIT_FLYOUT_MENU = new BooleanSetting("morphe_aislist_submit_flyout_menu", FALSE);
     public static final StringSetting AISLIST_SUBMIT_USERNAME = new StringSetting("morphe_aislist_submit_username", "", parent(AISLIST_SUBMIT_FLYOUT_MENU));
 
+    // Blur channel thumbnails
+    public static final BooleanSetting BLUR_CHANNEL_THUMBNAILS = new BooleanSetting("morphe_blur_channel_thumbnails", TRUE);
+    public static final StringSetting BLUR_CHANNEL_THUMBNAILS_CHANNELS = new StringSetting("morphe_blur_channel_thumbnails_channels", "", parent(BLUR_CHANNEL_THUMBNAILS));
+    public static final StringSetting BLUR_CHANNEL_THUMBNAILS_TEXT = new StringSetting("morphe_blur_channel_thumbnails_text", "Hidden channel", parent(BLUR_CHANNEL_THUMBNAILS));
+    public static final BooleanSetting BLUR_CHANNEL_THUMBNAILS_LOW_RES = new BooleanSetting("morphe_blur_channel_thumbnails_low_res", FALSE, parent(BLUR_CHANNEL_THUMBNAILS));
+    public static final BooleanSetting BLUR_CHANNEL_THUMBNAILS_FLYOUT_MENU = new BooleanSetting("morphe_blur_channel_thumbnails_flyout_menu", TRUE, parent(BLUR_CHANNEL_THUMBNAILS));
+
     // Ask flyout menu
     public static final BooleanSetting ASK_SUMMARIZE_FLYOUT_MENU = new BooleanSetting("morphe_ask_summarize_flyout_menu", FALSE, "morphe_ask_summarize_flyout_menu_user_dialog_message");
     public static final StringSetting ASK_PANEL_TEMPLATE = new StringSetting("morphe_ask_panel_template", "", false, false);

@@ -1561,6 +1561,24 @@ Automotive layout
     <string name="morphe_bypass_image_region_restrictions_title">Bypass image region restrictions</string>
     <string name="morphe_bypass_image_region_restrictions_summary">Redirects thumbnail requests to an alternative server to fix missing images in restricted countries</string>
 
+    <!-- layout.thumbnails.blurChannelThumbnailsPatch -->
+    <string name="morphe_blur_channel_thumbnails_screen_title">Blur channel thumbnails</string>
+    <string name="morphe_blur_channel_thumbnails_screen_summary">Blur the thumbnails of chosen channels and show a text over them</string>
+    <string name="morphe_blur_channel_thumbnails_title">Blur channel thumbnails</string>
+    <string name="morphe_blur_channel_thumbnails_channels_title">Channels to blur</string>
+    <string name="morphe_blur_channel_thumbnails_channels_summary">"One channel per line, as its @handle.
+To use a different text for a channel, add it after a | character:
+@somechannel | Spoilers"</string>
+    <string name="morphe_blur_channel_thumbnails_text_title">Thumbnail text</string>
+    <string name="morphe_blur_channel_thumbnails_text_summary">Text shown over blurred thumbnails. Leave empty to show no text</string>
+    <string name="morphe_blur_channel_thumbnails_flyout_menu_title">Add entries to the video menu</string>
+    <string name="morphe_blur_channel_thumbnails_low_res_title">Use low resolution thumbnails instead of blur</string>
+    <string name="morphe_blur_channel_thumbnails_show">Show thumbnail</string>
+    <string name="morphe_blur_channel_thumbnails_hide_again">Blur thumbnail again</string>
+    <string name="morphe_blur_channel_thumbnails_add">Blur this channel</string>
+    <string name="morphe_blur_channel_thumbnails_added">Blurring %s</string>
+    <string name="morphe_blur_channel_thumbnails_add_failed">Could not find the channel of this video</string>
+
     <!-- layout.dearrow.deArrowPatch -->
     <!-- "DeArrow" must be kept untranslated. -->
     <string name="morphe_dearrow_titles_title">DeArrow titles</string>

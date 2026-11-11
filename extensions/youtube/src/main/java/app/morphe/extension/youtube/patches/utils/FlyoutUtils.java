@@ -60,6 +60,7 @@ import app.morphe.extension.shared.patches.components.LithoFilterPatch.LithoLogg
 import app.morphe.extension.shared.theme.ThemeUtils;
 import app.morphe.extension.shared.ui.Dim;
 import app.morphe.extension.youtube.patches.AddToQueuePatch;
+import app.morphe.extension.youtube.patches.BlurChannelThumbnailsPatch;
 import app.morphe.extension.youtube.patches.FeedVideoActionsPatch;
 import app.morphe.extension.youtube.patches.LocalQueuePatch;
 import app.morphe.extension.youtube.patches.PictureinPictureButtonPatch;
@@ -652,6 +653,8 @@ public final class FlyoutUtils {
 
         nextButtonIndex = AiSListSubmitDialog.addFlyoutButton(flyoutPanel, nextButtonIndex, shortVideoId);
 
+        nextButtonIndex = BlurChannelThumbnailsPatch.addFlyoutButton(flyoutPanel, nextButtonIndex, shortVideoId);
+
         return ChannelWhitelist.addFlyoutButtons(flyoutPanel, nextButtonIndex, false);
     }
 
@@ -696,6 +699,12 @@ public final class FlyoutUtils {
             }
 
             nextButtonIndex = AiSListSubmitDialog.addFlyoutButton(
+                    flyoutPanel,
+                    nextButtonIndex,
+                    allButtonsVideoId
+            );
+
+            nextButtonIndex = BlurChannelThumbnailsPatch.addFlyoutButton(
                     flyoutPanel,
                     nextButtonIndex,
                     allButtonsVideoId
