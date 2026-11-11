@@ -1,4 +1,5 @@
 {
+  "tagFormat": "personal-v${version}",
   "branches": [
     "main",
     {

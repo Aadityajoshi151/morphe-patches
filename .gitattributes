@@ -1,0 +1,6 @@
+# Files rewritten by every release. Keep this repo's copy when merging upstream.
+CHANGELOG.md merge=ours
+README.md merge=ours
+gradle.properties merge=ours
+patches-bundle.json merge=ours
+patches-list.json merge=ours
