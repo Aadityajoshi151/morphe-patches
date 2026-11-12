@@ -38,7 +38,7 @@
       "@MorpheApp/changelog", {
         "releaseJson": {
           "path": "patches-bundle.json",
-          "downloadUrlTemplate": "https://github.com/${owner}/${repo}/releases/download/v${version}/patches-${version}.mpp",
+          "downloadUrlTemplate": "https://github.com/${owner}/${repo}/releases/download/personal-v${version}/patches-${version}.mpp",
           "signatureUrlTemplate": "",
           "publicKeyPath": "morphe-signing.pub"
         }
