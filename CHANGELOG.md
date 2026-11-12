@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/Aadityajoshi151/morphe-patches/compare/personal-v1.1.0...personal-v1.1.1) (2026-11-12)
+
+### 🐛 Bug Fixes
+
+* Use personal tag in bundle download URL ([cd60b16](https://github.com/Aadityajoshi151/morphe-patches/commit/cd60b165f2174f0714810ffaa4bec1329b74295e))
+
 ## [1.1.0](https://github.com/Aadityajoshi151/morphe-patches/compare/personal-v1.0.0...personal-v1.1.0) (2026-11-12)
 
 ### ✨ New Features
