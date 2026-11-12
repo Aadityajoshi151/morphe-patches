@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/Aadityajoshi151/morphe-patches/compare/personal-v1.0.0...personal-v1.1.0) (2026-11-12)
+
+### ✨ New Features
+
+* **YouTube:** Add `Blur channel thumbnails` patch ([3432c36](https://github.com/Aadityajoshi151/morphe-patches/commit/3432c36f85e736ffb380025885f8119d67ec3624))
+
 ## 1.0.0 (2026-11-12)
 
 ### ⚠ BREAKING CHANGES
