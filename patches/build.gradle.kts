@@ -4,12 +4,12 @@ group = "app.morphe"
 
 patches {
     about {
-        name = "YOUR_NAME Patches"
+        name = "Aaditya Patches"
         description = "Morphe Patches plus my own patches"
-        source = "git@github.com:YOUR_GITHUB_USERNAME/morphe-patches.git"
-        author = "YOUR_GITHUB_USERNAME"
+        source = "git@github.com:Aadityajoshi151/morphe-patches.git"
+        author = "Aadityajoshi151"
         contact = "na"
-        website = "https://github.com/YOUR_GITHUB_USERNAME/morphe-patches"
+        website = "https://github.com/Aadityajoshi151s/morphe-patches"
         license = "GNU General Public License v3.0, with additional GPL section 7 requirements"
     }
 }
